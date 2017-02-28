@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1546A0AED1E3E0433922D28E /* Pods___gif__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2D57CE5CB5B325D428A8DA /* Pods___gif__.framework */; };
+		2B5762011E65669600773DD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5762001E65669600773DD2 /* AppDelegate.swift */; };
+		2B5762031E65669600773DD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5762021E65669600773DD2 /* ViewController.swift */; };
+		2B5762061E65669600773DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5762041E65669600773DD2 /* Main.storyboard */; };
+		2B5762081E65669600773DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5762071E65669600773DD2 /* Assets.xcassets */; };
+		2B57620B1E65669600773DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5762091E65669600773DD2 /* LaunchScreen.storyboard */; };
+		2B5762131E656B2300773DD2 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B5762121E656B2300773DD2 /* demo.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B5761FD1E65669600773DD2 /* 播放gif图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "播放gif图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5762001E65669600773DD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B5762021E65669600773DD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B5762051E65669600773DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B5762071E65669600773DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B57620A1E65669600773DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B57620C1E65669600773DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5762121E656B2300773DD2 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		3527D40A9BCD3596D58B8B58 /* Pods-播放gif图片.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-播放gif图片.release.xcconfig"; path = "Pods/Target Support Files/Pods-播放gif图片/Pods-播放gif图片.release.xcconfig"; sourceTree = "<group>"; };
+		5D2D57CE5CB5B325D428A8DA /* Pods___gif__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___gif__.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9665A03EFB60F2C65F23C53 /* Pods-播放gif图片.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-播放gif图片.debug.xcconfig"; path = "Pods/Target Support Files/Pods-播放gif图片/Pods-播放gif图片.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5761FA1E65669600773DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1546A0AED1E3E0433922D28E /* Pods___gif__.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F8B9D40944D7A3F5F5873A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9665A03EFB60F2C65F23C53 /* Pods-播放gif图片.debug.xcconfig */,
+				3527D40A9BCD3596D58B8B58 /* Pods-播放gif图片.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B5761F41E65669600773DD2 = {
+			isa = PBXGroup;
+			children = (
+				2B5761FF1E65669600773DD2 /* 播放gif图片 */,
+				2B5761FE1E65669600773DD2 /* Products */,
+				17F8B9D40944D7A3F5F5873A /* Pods */,
+				BBDF24704C29B1BE9A86425B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5761FE1E65669600773DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5761FD1E65669600773DD2 /* 播放gif图片.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5761FF1E65669600773DD2 /* 播放gif图片 */ = {
+			isa = PBXGroup;
+			children = (
+				2B5762121E656B2300773DD2 /* demo.gif */,
+				2B5762001E65669600773DD2 /* AppDelegate.swift */,
+				2B5762021E65669600773DD2 /* ViewController.swift */,
+				2B5762041E65669600773DD2 /* Main.storyboard */,
+				2B5762071E65669600773DD2 /* Assets.xcassets */,
+				2B5762091E65669600773DD2 /* LaunchScreen.storyboard */,
+				2B57620C1E65669600773DD2 /* Info.plist */,
+			);
+			path = "播放gif图片";
+			sourceTree = "<group>";
+		};
+		BBDF24704C29B1BE9A86425B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2D57CE5CB5B325D428A8DA /* Pods___gif__.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5761FC1E65669600773DD2 /* 播放gif图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B57620F1E65669600773DD2 /* Build configuration list for PBXNativeTarget "播放gif图片" */;
+			buildPhases = (
+				26301FDE0FDDA94E3ED39051 /* [CP] Check Pods Manifest.lock */,
+				2B5761F91E65669600773DD2 /* Sources */,
+				2B5761FA1E65669600773DD2 /* Frameworks */,
+				2B5761FB1E65669600773DD2 /* Resources */,
+				9311978A52A4856E4DD504F6 /* [CP] Embed Pods Frameworks */,
+				F294AE4667E7555D1900DE0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "播放gif图片";
+			productName = "播放gif图片";
+			productReference = 2B5761FD1E65669600773DD2 /* 播放gif图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5761F51E65669600773DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = seemygo;
+				TargetAttributes = {
+					2B5761FC1E65669600773DD2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 756CRUYYH5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2B5761F81E65669600773DD2 /* Build configuration list for PBXProject "播放gif图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5761F41E65669600773DD2;
+			productRefGroup = 2B5761FE1E65669600773DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5761FC1E65669600773DD2 /* 播放gif图片 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5761FB1E65669600773DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B57620B1E65669600773DD2 /* LaunchScreen.storyboard in Resources */,
+				2B5762131E656B2300773DD2 /* demo.gif in Resources */,
+				2B5762081E65669600773DD2 /* Assets.xcassets in Resources */,
+				2B5762061E65669600773DD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26301FDE0FDDA94E3ED39051 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9311978A52A4856E4DD504F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-播放gif图片/Pods-播放gif图片-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F294AE4667E7555D1900DE0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-播放gif图片/Pods-播放gif图片-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5761F91E65669600773DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5762031E65669600773DD2 /* ViewController.swift in Sources */,
+				2B5762011E65669600773DD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B5762041E65669600773DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5762051E65669600773DD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B5762091E65669600773DD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B57620A1E65669600773DD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B57620D1E65669600773DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B57620E1E65669600773DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5762101E65669600773DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9665A03EFB60F2C65F23C53 /* Pods-播放gif图片.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 756CRUYYH5;
+				INFOPLIST_FILE = "播放gif图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.www.--gif--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B5762111E65669600773DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3527D40A9BCD3596D58B8B58 /* Pods-播放gif图片.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 756CRUYYH5;
+				INFOPLIST_FILE = "播放gif图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.www.--gif--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5761F81E65669600773DD2 /* Build configuration list for PBXProject "播放gif图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B57620D1E65669600773DD2 /* Debug */,
+				2B57620E1E65669600773DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B57620F1E65669600773DD2 /* Build configuration list for PBXNativeTarget "播放gif图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5762101E65669600773DD2 /* Debug */,
+				2B5762111E65669600773DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5761F51E65669600773DD2 /* Project object */;
+}

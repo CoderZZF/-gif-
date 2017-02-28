@@ -1,0 +1,6 @@
+framework module Pods___gif__ {
+  umbrella header "Pods-播放gif图片-umbrella.h"
+
+  export *
+  module * { export * }
+}
